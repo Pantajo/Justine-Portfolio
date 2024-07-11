@@ -1,0 +1,29 @@
+/* Experience.css */
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card .card-img-top {
+  max-height: 200px; /* Adjust height as needed */
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-body h4 {
+  margin-top: 10px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}

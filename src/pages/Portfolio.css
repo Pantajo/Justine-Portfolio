@@ -1,0 +1,62 @@
+#portfolio-info {
+    min-height: 30vh;
+}
+
+#portfolio .portfolio-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px; /* Ensure the border-radius is applied to the container */
+    margin-left: 10px; /* Add margin to the left */
+    margin-right: 10px; /* Add margin to the right */
+  }
+  
+#portfolio .container{
+    border-radius: 10%;
+    box-shadow: 5px 5px 5px 5px #090909;
+  }
+  #portfolio img {
+    box-shadow: 10px 10px 10px 10px #eceaea37;
+    border-radius: 20px;
+    transition: all .5s ease; /* Ensure smooth transition */
+  }
+  
+  #portfolio .one {
+    width: 200px;
+  }
+  
+  #portfolio .two {
+    width: 100%;
+  }
+  
+  #portfolio .three {
+    width: 100%;
+  }
+  
+  #portfolio .four {
+    width: 100%;
+  }
+  
+  #portfolio h4:hover {
+    text-shadow: 0 0 20px #53035e, 0 0 40px #0407a3;
+  }
+  
+  #portfolio img:hover {
+    transform: scale(1.2); /* Scale the image instead of changing width */
+  }
+  
+  #portfolio .one:hover img {
+    transform: scale(1.2); /* Scale the image instead of changing width */
+  }
+  
+  #portfolio .two:hover img {
+    transform: scale(1.2); /* Scale the image instead of changing width */
+  }
+  
+  #portfolio .three:hover img {
+    transform: scale(1.2); /* Scale the image instead of changing width */
+  }
+  
+  #portfolio .four:hover img {
+    transform: scale(1.2); /* Scale the image instead of changing width */
+  }
+  
